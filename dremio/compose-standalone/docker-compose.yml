@@ -3,7 +3,7 @@ version: "2"
 services:
   dremio:
     restart: always
-    image: dezota/dremio-oss:latest
+    image: dremio/dremio-oss:latest
     hostname: dremio
     volumes:
       - ./dremio.conf:/opt/dremio/conf/dremio.conf:ro
